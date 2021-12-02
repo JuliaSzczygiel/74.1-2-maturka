@@ -20,7 +20,6 @@ vector<Password> sortPasswords(vector<Password> vec){
     }	
 	return vec;
 }
-
 int main(){
 	ifstream dane("hasla.txt");
 	string password;
@@ -53,7 +52,6 @@ int main(){
 			allPass.push_back(h);
 		}
 	}
-	
 	cout << "74.1: " << endl << passOnlyFromNum << endl;
 	cout << "74.2: " << endl;
 	vector<Password> sorted = sortPasswords(allPass);
